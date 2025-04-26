@@ -31,9 +31,13 @@ async def jogador(interaction: discord.Interaction, nome: str):
         return await interaction.followup.send("Erro ao buscar dados do jogador")
 
     embed = discord.Embed(
-        title=f"🎮 {data.get('nick_name')}",
         description=f"*{data.get('real_name', 'N/A')}*",
         color=0xFFFFFF
+    )
+
+    embed.set_author(
+        name=f"{data.get('nick_name')}",
+        icon_url="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/730/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg",
     )
 
     if data.get('image'):

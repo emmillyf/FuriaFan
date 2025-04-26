@@ -6,10 +6,15 @@ async def rotas(interaction: discord.Interaction):
     await interaction.response.defer()
     
     embed = discord.Embed(
-        title="FURIA | Rotas",
         description="Explicação detalhada de cada função dos jogadores durante o game",
         color=0xFFFFFF
     )
+
+    embed.set_author(
+        name="FURIA | Rotas",
+        icon_url="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/730/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg",
+    )
+
     embed.add_field(name="🎯 AWPer", value="Especialista no uso da sniper (AWP)", inline=False)
     embed.add_field(name=" 👑 IGL", value="In-Game Leader(IGL), líder tático que toma as decisões estratégicas durante a partida", inline=False)
     embed.add_field(name="🔫 Rifler", value="Especialista no uso de rifles (AK-47, M4A4, M4A1-S)", inline=False)

@@ -11,10 +11,15 @@ async def estatisticas(interaction: discord.Interaction):
         return await interaction.followup.send("Erro ao buscar estatísticas do time")
     
     embed = discord.Embed(
-        title="FURIA | Estatísticas do Time",
         description="📊",
         color=0xFFFFFF
     )
+
+    embed.set_author(
+        name="FURIA | Estatísticas do Time",
+        icon_url="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/730/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg",
+    )
+
     embed.add_field(name=" Mapas Jogados", value=data.get('maps_played', 'N/A'), inline=False)
     embed.add_field(name=" Rounds Jogados", value=data.get('rounds_played', 'N/A'), inline=False)
     embed.add_field(name=" Vitórias / Empates / Derrotas", value=data.get('WDL', 'N/A'), inline=False)

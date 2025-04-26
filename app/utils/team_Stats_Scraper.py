@@ -18,7 +18,6 @@ def get_team_stats():
 
         def extract_text(xpath):
             result = selector.xpath(xpath).get()
-            print(f"DEBUG: {xpath} => {result}")
             return selector.xpath(xpath).get(default='N/A').strip()
 
         return {

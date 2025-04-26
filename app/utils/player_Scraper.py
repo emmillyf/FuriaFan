@@ -32,7 +32,6 @@ def get_player_info(player_name: str):
 
         def extract_text(xpath):
             result = selector.xpath(xpath).get()
-            print(f"DEBUG: {xpath} => {result}")
             return selector.xpath(xpath).get(default='N/A').strip()
 
         return {
