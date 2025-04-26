@@ -1,7 +1,7 @@
 import discord
 from discord import app_commands
-from app.utils.player_Scraper import get_player_info
-from app.utils.player_Stats_Scrapper import get_player_stats
+from utils.player_Scraper import get_player_info
+from utils.player_Stats_Scrapper import get_player_stats
 
 @app_commands.command(name="jogador", description="Informações e estatísticas de um jogador")
 async def jogador(interaction: discord.Interaction, nome: str):

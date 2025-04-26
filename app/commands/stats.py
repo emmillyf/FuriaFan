@@ -1,6 +1,6 @@
 import discord
 from discord import app_commands
-from app.utils.team_Stats_Scraper import get_team_stats
+from utils.team_Stats_Scraper import get_team_stats
 
 @app_commands.command(name="estatisticas", description="Estatísticas do time")
 async def estatisticas(interaction: discord.Interaction):
