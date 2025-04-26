@@ -22,7 +22,7 @@ async def jogador(interaction: discord.Interaction, nome: str):
         embed = discord.Embed(
             title="Jogador não encontrado",
             description=f"Jogadores disponíveis:\n{valid_players}",
-            color=0xFF0000
+            color=0xFFFFFF
         )
         return await interaction.followup.send(embed=embed)
 
