@@ -1,7 +1,5 @@
 discord.py 
 requests 
-aiohttp
 dotenv
 cloudscraper
 parsel
-Pillow

@@ -2,7 +2,6 @@ from parsel import Selector
 from requests.exceptions import RequestException
 import cloudscraper
 
-
 def get_team_stats():
 
     try:
