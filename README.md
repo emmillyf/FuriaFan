@@ -14,7 +14,7 @@
 
   <h2>🐳 Como rodar o projeto com Docker</h2>
 
-p><strong>⚠️ Obs:</strong> Utilize esse método caso o bot não esteja disponível(ativo).</p>
+<p><strong>⚠️ Obs:</strong> Utilize esse método caso o bot não esteja disponível(ativo).</p>
 
   <h3>Pré-requisitos</h3>
   <p>Docker instalado: <a href="https://www.docker.com/get-started" target="_blank">https://www.docker.com/get-started</a></p>
