@@ -1,6 +1,14 @@
 from discord import app_commands
 from dotenv import load_dotenv
-from commands import time, jogadores, rotas, jogador, estatisticas, inventario, replay, quiz, redesocial
+from commands.players import jogadores 
+from commands.team import time
+from commands.player import jogador
+from commands.socialmedia import redesocial
+from commands.playersroles import rotas
+from commands.stats import estatisticas
+from commands.inventory import inventario
+from commands.replay import replay
+from commands.quiz import quiz
 import discord
 import os
 
