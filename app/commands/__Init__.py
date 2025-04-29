@@ -6,5 +6,6 @@ from .stats import estatisticas
 from .inventory import inventario
 from .replay import replay
 from .quiz import quiz
+from .socialmedia import redesocial
 
-__all__ = ['time', 'jogadores', 'rotas', 'jogador', 'estatisticas', 'inventario', 'replay', 'quiz']
+__all__ = ['time', 'jogadores', 'rotas', 'jogador', 'estatisticas', 'inventario', 'replay', 'quiz', 'redesocial']

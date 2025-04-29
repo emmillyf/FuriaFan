@@ -10,7 +10,6 @@ if not AI_API_KEY:
     raise ValueError("Chave da GenAI não encontrada! Verifique seu arquivo .env")
 
 openai.api_key = AI_API_KEY
-print("Chave carregada:", AI_API_KEY)
 
 def gerar_pergunta():
     prompt = (
