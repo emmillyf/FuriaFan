@@ -22,7 +22,7 @@
     <li>Adicione o bot no seu servidor:
       <a href="https://discord.com/developers/applications/1364986522977173565/installation" class="discord-btn" target="_blank">Bot Invite</a>
     </li>
-    <li>Execute o Dockere faça login:
+    <li>Execute o Docker e faça login:
       <pre><code>docker login</code></pre>
     </li>
     <li>Baixe a imagem:
