@@ -12,7 +12,7 @@
     <li><strong>OpenAI</strong> – Geração automática de perguntas para o quiz (uso limitado devido à versão gratuita da API).</li>
   </ul>
 
-  <h2>🐳 Como rodar o projeto com Docker (caso o bot não esteja ativo)</h2>
+  <h2>🐳 Como rodar o projeto com Docker</h2>
 
   <h3>Pré-requisitos</h3>
   <p>Docker instalado: <a href="https://www.docker.com/get-started" target="_blank">https://www.docker.com/get-started</a></p>
