@@ -22,10 +22,7 @@
     <li>Adicione o bot no seu servidor:
       <a href="https://discord.com/developers/applications/1364986522977173565/installation" class="discord-btn" target="_blank">Bot Invite</a>
     </li>
-    <li>Execute o Docker:
-      <pre><code>docker pull emmillyf/furiafan:latest</code></pre>
-    </li>
-        <li>Faça login:
+    <li>Execute o Dockere faça login:
       <pre><code>docker login</code></pre>
     </li>
     <li>Baixe a imagem:
