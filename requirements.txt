@@ -2,4 +2,5 @@ discord.py
 requests 
 dotenv
 cloudscraper
+openai
 parsel

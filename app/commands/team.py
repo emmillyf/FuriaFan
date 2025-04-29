@@ -1,6 +1,6 @@
 import discord
 from discord import app_commands
-from utils.team_Scraper import get_furia_info
+from services.team_Scraper import get_furia_info
 
 @app_commands.command(name="time", description="Informações sobre o time")
 async def time(interaction: discord.Interaction):

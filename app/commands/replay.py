@@ -21,6 +21,8 @@ async def replay(interaction: discord.Interaction):
         name="Melhores replays da FURIA",
         icon_url="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/730/69f7ebe2735c366c65c0b33dae00e12dc40edbe4.jpg",
     )
+    
+    embed.set_thumbnail(url="https://upload.wikimedia.org/wikipedia/pt/f/f9/Furia_Esports_logo.png")
 
     for name, url in REPLAYS.items():
         embed.add_field(

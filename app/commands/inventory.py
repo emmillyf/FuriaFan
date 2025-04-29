@@ -3,7 +3,6 @@ from discord import app_commands
 
 @app_commands.command(name="inventario", description="Acesso ao inventário de algum jogador")
 async def inventario(interaction: discord.Interaction, jogador: str):
-    """Comando para mostrar o inventário de CS:GO de um jogador da FURIA"""
     await interaction.response.defer()
     
     PLAYERS_STEAM = {

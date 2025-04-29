@@ -1,6 +1,6 @@
 from discord import app_commands
 from dotenv import load_dotenv
-from commands import time, jogadores, rotas, jogador, estatisticas, inventario, replay
+from commands import time, jogadores, rotas, jogador, estatisticas, inventario, replay, quiz
 import discord
 import os
 
@@ -28,6 +28,7 @@ class FuriaFanBot(discord.Client):
         self.tree.add_command(estatisticas)
         self.tree.add_command(inventario)
         self.tree.add_command(replay)
+        self.tree.add_command(quiz)
         await self.tree.sync()
 
     async def on_ready(self):

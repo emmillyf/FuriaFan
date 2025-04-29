@@ -1,7 +1,7 @@
 import discord
 from discord import app_commands
-from utils.player_Scraper import get_player_info
-from utils.player_Stats_Scraper import get_player_stats
+from services.player_Scraper import get_player_info
+from services.player_Stats_Scraper import get_player_stats
 
 @app_commands.command(name="jogador", description="Informações e estatísticas de um jogador")
 async def jogador(interaction: discord.Interaction, nome: str):
@@ -51,8 +51,7 @@ async def jogador(interaction: discord.Interaction, nome: str):
     data_stats = get_player_stats(nome)
 
     stats = data_stats.get('stats', {})
-    print(stats)
-
+    
     stats_value = (
         f"**Rating:** {stats.get('rating_1', 'N/A')}\n"
         f"**HS%:** {stats.get('headshot_percentage', 'N/A')}\n"

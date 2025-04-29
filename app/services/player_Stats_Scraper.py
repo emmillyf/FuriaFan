@@ -31,7 +31,6 @@ def get_player_stats(player_name: str):
         selector = Selector(text=r.text)
 
         def extract_text(xpath):
-            result = selector.xpath(xpath).get()
             return selector.xpath(xpath).get(default='N/A').strip()
 
         return {
