@@ -64,7 +64,7 @@
   <p>O bot está hospedado gratuitamente usando a plataforma <a href="https://discloud.com/" target="_blank">Discloud</a>, ideal para projetos Discord de pequeno e médio porte.</p>
 
   <h2>🔗 Convide o Bot para o seu servidor</h2>
-  <p>👉 <a href="https://discord.com/oauth2/authorize?client_id=1364986522977173565" target="_blank">Adicionar o Furia Fan ao seu servidor</a></p>
+  <p>👉 <a href="https://discord.com/oauth2/authorize?client_id=1364986522977173565&permissions=3072&integration_type=0&scope=applications.commands+bot" target="_blank">Adicionar o Furia Fan ao seu servidor</a></p>
 
 </body>
 </html>
