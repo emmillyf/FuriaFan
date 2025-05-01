@@ -8,10 +8,13 @@
   <ul>
     <li><strong>Python</strong> – Linguagem principal do bot.</li>
     <li><strong>Parsel</strong> – Utilizada para extrair informações de páginas da web (web scraping).</li>
-    <li><strong>Cloudscraper</strong> – Lida com sites protegidos por Cloudflare para scraping.</li>
+    <li><strong>Cloudscraper</strong> – Para scraping das infos dos jogadores.</li>
     <li><strong>OpenAI</strong> – Geração automática de perguntas para o quiz (uso limitado devido à versão gratuita da API).</li>
   </ul>
-
+  
+   <h2>🔗 Primeiro convide o Bot para o seu servidor</h2>
+  <p>👉 <a href="https://discord.com/oauth2/authorize?client_id=1364986522977173565&permissions=3072&integration_type=0&scope=applications.commands+bot" target="_blank">Adicionar o Furia Fan ao seu servidor</a></p>
+  
   <h2>🐳 Como rodar o projeto com Docker</h2>
 
 <p><strong>⚠️ Obs:</strong> Utilize esse método caso o bot não esteja disponível(ativo).</p>
@@ -59,12 +62,6 @@
   </table>
 
   <p><strong>⚠️ Obs:</strong> O comando <code>/quiz</code> depende da API da OpenAI e pode estar sujeito a limitações de uso.</p>
-
-  <h2>☁️ Hospedagem com Discloud</h2>
-  <p>O bot está hospedado gratuitamente usando a plataforma <a href="https://discloud.com/" target="_blank">Discloud</a>, ideal para projetos Discord de pequeno e médio porte.</p>
-
-  <h2>🔗 Convide o Bot para o seu servidor</h2>
-  <p>👉 <a href="https://discord.com/oauth2/authorize?client_id=1364986522977173565&permissions=3072&integration_type=0&scope=applications.commands+bot" target="_blank">Adicionar o Furia Fan ao seu servidor</a></p>
 
 </body>
 </html>
